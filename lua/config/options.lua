@@ -5,6 +5,6 @@
 -- Disable LazyVim auto format
 vim.g.autoformat = false
 
-local opt = vim.opt
-opt.shiftwidth = 4
+vim.opt.exrc = true
+vim.opt.shiftwidth = 4
 
